@@ -1,3 +1,5 @@
+*.zip
+
 # General
 *.log
 *.bak
