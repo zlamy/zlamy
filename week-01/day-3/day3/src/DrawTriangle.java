@@ -17,8 +17,6 @@ public class DrawTriangle {
         }
         System.out.println("Loop finished.");
     }
-
-
 }
 
 

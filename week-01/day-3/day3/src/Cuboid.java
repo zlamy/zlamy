@@ -9,7 +9,7 @@ public class Cuboid {
         double surface = 2*(a*b + b*c + a*c);
         System.out.println("Surface Area: " + surface);
         double Volume = a*b*c;
-        System.out.println("Surface Area: " + Volume);
+        System.out.println("Volume: " + Volume);
 
     }
 }

@@ -22,11 +22,7 @@ public class VariableMutation {
 
         int f1 = 123;
         int f2 = 345;
-        if (f1>f2) {
-            System.out.println("f1 is greater");
-        } else {
-            System.out.println("f2 is greater");
-        }
+        boolean isF1Greater = (f1>f2);
 
         int g1 = 350;
         int g2 = 200;

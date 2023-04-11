@@ -4,7 +4,9 @@ public class Swap {
         int b = 526;
         int tempB = a;
         int tempA = b;
-        System.out.println(tempA);
-        System.out.println(tempB);
+        a = tempA;
+        b = tempB;
+        System.out.println(a);
+        System.out.println(b);
     }
 }

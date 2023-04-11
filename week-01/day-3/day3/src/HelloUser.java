@@ -4,6 +4,6 @@ public class HelloUser {
         Scanner input = new Scanner(System.in);
         System.out.println("Hi, please insert your name:");
         String name = input.nextLine();
-        System.out.println("Hello," + name + "!");
+        System.out.println("Hello, " + name + "!");
     }
 }

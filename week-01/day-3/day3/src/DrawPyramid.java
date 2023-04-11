@@ -7,12 +7,12 @@ public class DrawPyramid {
         draw (height);
     }
         public static void draw(int height) {
-            for (int i = 1; i <= height; i++) {
+            for (int i = 0; i <= height; i++) {
                 System.out.println();
-                for (int j =height; j >= i; j--) {
-                    System.out.print(" ");
+                for (int j =height+2; j >= i; j--) {
+                    System.out.print("j");
                 }
-                for (int j = 1; j <= i; j++) {
+                for (int j = 8; j <= i+9; j++) {
                     System.out.print("* ");
                 }
             }

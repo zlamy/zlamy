@@ -3,26 +3,28 @@ public class DrawDiamond {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the pyramid height");
-        int size = input.nextInt();
-        draw(size);
+        int neco = input.nextInt();
+        draw (neco);
     }
-
-    public static void draw(int size) {
-        for (int i = 0; i < size / 2; i++) {
-            for (int j = size; j < size / 2; j--) {
-                System.out.println(" ");
-            }
-            for (int j = size / 2; j < 1; j--) {
-                System.out.println("*");
-            }
-        }
-        for (int i = size - 1; i >= 0; i--) {
-            for (int j = 0; j < size - i; j++) {
+    public static void draw(int height) {
+        for (int i = 0; i <= height/2; i=i+1) {
+            System.out.println();
+            for (int j = 0; j < height / 2 -i; j=j+1) {
                 System.out.print(" ");
             }
-            for (int j = 0; j <= i * 2; j++) {
-                System.out.print("*");
+            for (int j = 0; j < i; j= j +1) {
+                System.out.print("* ");
             }
         }
+        for (int i = 0 ; i <= height/2 -1; i=i+1) {
+                System.out.println();
+                for (int j = 0; j <=i; j++) {
+                    System.out.print(" ");
+                }
+                for (int j = i; j < height/2-1; j++) {
+                    System.out.print("* ");
+            }
+        }
+        System.out.println("Loop finished.");
     }
 }

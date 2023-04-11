@@ -8,7 +8,7 @@ public class SecondsInADay {
         int currentSecondsSinceMidnight = (currentHours * 60 * 60) + (currentMinutes * 60) + currentSeconds;
         int remainingSeconds = secondsInADay - currentSecondsSinceMidnight;
 
-        System.out.println("Remaining seconds in the day: " + remainingSeconds);
+        System.out.println(remainingSeconds);
     }
 }
 

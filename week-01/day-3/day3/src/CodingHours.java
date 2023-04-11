@@ -9,7 +9,7 @@ public class CodingHours {
         double wholeNumber = hourWork*numebrWeek;
         double percentage = result/wholeNumber;
 
-        System.out.println("average attende spent by coding " + result + " hours");
+        System.out.println(result);
         System.out.println("percentage of the coding hours in the semester is " + percentage + "%");
     }
 
